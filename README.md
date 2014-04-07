@@ -1,11 +1,33 @@
 #jquery-sticky-alert
-A minimal jQuery plugin to add a sticky alert bar to the top of your website.
+A minimal jQuery plugin to add a sticky alert bar to the top of your website. Inspired by [this pen on CodePen](http://codepen.io/thommybrowne/details/katou).
 
 ---
 
-##Usage
+## Installation
 
-Usage instructions coming soon.
+Include ```jquery.stickyalert.js``` after jQuery library:
+
+```html
+<script src="/path/to/jquery.stickyalert.js"></script>
+```
+
+Also include ```jquery.stickyalerts.css```:
+
+```html
+<link href="/path/to/jquery.stickyalert.css" rel="stylesheet" type="text/css" />
+```
+
+## Usage
+
+I usually add this in my ```<header>``` area.
+```javascript
+$(document).ready(function() {
+  $('#my-fucking-area').stickyalert({barFontColor:'#eee',barColor:'#222',barText:'Hey, need some web work done? Give me a shout!',barTextLink:'http://longren.io/work-with-me/'});
+});
+```
+
+That will result in the following:
+![jQuery Sticky Alert Screenshot](https://raw.githubusercontent.com/tlongren/jquery-sticky-alert/master/screenshot.png "jQuery Sitcky Alert Screenshot")
 
 ##Issues
 If you nocitce any problems, plese [submit an issue](https://github.com/tlongren/colors-anchor-theme/issues).
