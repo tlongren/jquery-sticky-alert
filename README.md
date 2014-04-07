@@ -3,9 +3,9 @@ A minimal jQuery plugin to add a sticky alert bar to the top of your website. In
 
 ---
 
-## Installation
+##Installation
 
-Include ```jquery.stickyalert.js``` after jQuery library:
+Include ```jquery.stickyalert.js``` after jQuery:
 
 ```html
 <script src="/path/to/jquery.stickyalert.js"></script>
@@ -17,7 +17,7 @@ Also include ```jquery.stickyalerts.css```:
 <link href="/path/to/jquery.stickyalert.css" rel="stylesheet" type="text/css" />
 ```
 
-## Usage
+##Usage
 
 I usually add this in my ```<header>``` area.
 ```javascript
@@ -31,12 +31,12 @@ $(document).ready(function() {
 });
 ```
 
-You'll also need a div with id ```alert-container```:
+You'll also need a div with id ```alert-container```, according to the usage example above, at least:
 ```html
 <div id="alert-container"></div>
 ```
 
-That will result in the following:
+That will result in the following. Your ```alert-container``` will have contain the sticky alert.
 ![jQuery Sticky Alert Screenshot](https://raw.githubusercontent.com/tlongren/jquery-sticky-alert/master/screenshot.png "jQuery Sitcky Alert Screenshot")
 
 ##Issues
