@@ -36,8 +36,7 @@ You'll also need a div with id ```alert-container```, according to the usage exa
 <div id="alert-container"></div>
 ```
 
-That will result in the following. Your ```alert-container``` will have contain the sticky alert.
-![jQuery Sticky Alert Screenshot](https://raw.githubusercontent.com/tlongren/jquery-sticky-alert/master/screenshot.png "jQuery Sitcky Alert Screenshot")
+Your ```alert-container``` will contain the sticky alert. ```:)```
 
 ##Issues
 If you nocitce any problems, plese [submit an issue](https://github.com/tlongren/colors-anchor-theme/issues).
@@ -48,3 +47,6 @@ If you nocitce any problems, plese [submit an issue](https://github.com/tlongren
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+##A Screenshot
+![jQuery Sticky Alert Screenshot](https://raw.githubusercontent.com/tlongren/jquery-sticky-alert/master/screenshot.png "jQuery Sitcky Alert Screenshot")
