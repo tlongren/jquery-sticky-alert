@@ -22,8 +22,13 @@ Also include ```jquery.stickyalerts.css```:
 I usually add this in my ```<header>``` area.
 ```javascript
 $(document).ready(function() {
-  $('#my-fucking-area').stickyalert({barFontColor:'#eee',barColor:'#222',barText:'Hey, need some web work done? Give me a shout!',barTextLink:'http://longren.io/work-with-me/'});
+  $('#alert-container').stickyalert({barFontColor:'#eee',barColor:'#222',barText:'Hey, need some web work done? Give me a shout!',barTextLink:'http://longren.io/work-with-me/'});
 });
+```
+
+You'll also need a div with id ```alert-container```:
+```html
+<div id="alert-container"></div>
 ```
 
 That will result in the following:
