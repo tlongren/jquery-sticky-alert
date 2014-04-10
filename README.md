@@ -24,6 +24,7 @@ I usually add something like this in my ```<header>``` area, after jQuery and ``
 $('#alert-container').stickyalert({
   barFontColor:'#eee',
   barColor:'#222',
+  barFontSize: '1.1rem',
   barText:'Hey, need some web work done? Give me a shout!',
   barTextLink:'http://longren.io/work-with-me/'
 });
