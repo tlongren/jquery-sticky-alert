@@ -35,7 +35,7 @@ You'll also need a div with id ```alert-container```, according to the usage exa
 <div id="alert-container"></div>
 ```
 
-Your ```alert-container``` will contain the sticky alert. ```:)```
+Your ```alert-container``` element will contain the sticky alert. ```:)```
 
 ##Issues
 If you nocitce any problems, plese [submit an issue](https://github.com/tlongren/colors-anchor-theme/issues).
