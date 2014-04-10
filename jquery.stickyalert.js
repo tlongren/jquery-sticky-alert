@@ -7,6 +7,7 @@
         var defaults = {
             barColor: '#222',
             barFontColor: '#FFF',
+            barFontSize: '1.1rem',
             barText: 'I like to work! Hire me!',
             barTextLink: 'http://longren.io/work-with-me/',
         };
