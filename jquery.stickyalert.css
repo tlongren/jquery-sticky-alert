@@ -3,9 +3,6 @@
 div.alert-box {
 display: block;
 padding: 6px 7px;
-font-family: 'Exo', sans-serif;
-font-weight: 400;
-font-size: 13px;
 color:#eee;
 text-align: center;
 border: 1px solid rgba(0, 0, 0, 0.1);
