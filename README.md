@@ -19,15 +19,13 @@ Also include ```jquery.stickyalerts.css```:
 
 ##Usage
 
-I usually add this in my ```<header>``` area, after jQuery and ```jquery.stickyalert.js``` have been loaded.
+I usually add something like this in my ```<header>``` area, after jQuery and ```jquery.stickyalert.js``` have been loaded.
 ```javascript
-$(document).ready(function() {
-  $('#alert-container').stickyalert({
-    barFontColor:'#eee',
-    barColor:'#222',
-    barText:'Hey, need some web work done? Give me a shout!',
-    barTextLink:'http://longren.io/work-with-me/'
-  });
+$('#alert-container').stickyalert({
+  barFontColor:'#eee',
+  barColor:'#222',
+  barText:'Hey, need some web work done? Give me a shout!',
+  barTextLink:'http://longren.io/work-with-me/'
 });
 ```
 
