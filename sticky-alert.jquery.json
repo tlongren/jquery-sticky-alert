@@ -27,7 +27,7 @@
     "bugs": "https://github.com/tlongren/jquery-sticky-alert/issues",
     "homepage": "http://longren.io/sticky-alerts-a-new-tiny-jquery-plugin/",
     "docs": "https://github.com/tlongren/jquery-sticky-alert",
-    "download": "http://code.jquery.com/#sticky-alert",
+    "download": "https://github.com/tlongren/jquery-sticky-alert",
     "dependencies": {
         "jquery": ">=1.5"
     }
