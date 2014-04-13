@@ -15,15 +15,9 @@
     "version": "0.0.1",
     "author": {
         "name": "Tyler Longren",
+        "email": "tyler@longren.io"
         "url": "http://longren.io/"
     },
-    "maintainers": [
-        {
-            "name": "Corey Frang",
-            "email": "gnarf37@gmail.com",
-            "url": "http://gnarf.net"
-        }
-    ],
     "licenses": [
         {
             "type": "MIT",
