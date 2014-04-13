@@ -1,0 +1,40 @@
+{
+    "name": "sticky-alert",
+    "title": "jQuery Sticky Alert Bar",
+    "description": "A minimal jQuery plugin to add a sticky alert bar to the top of your website.",
+    "keywords": [
+        "alert",
+        "notification",
+        "minimal",
+        "html",
+        "css",
+        "options",
+        "sticky",
+        "tiny"
+    ],
+    "version": "0.0.1",
+    "author": {
+        "name": "Tyler Longren",
+        "url": "http://longren.io/"
+    },
+    "maintainers": [
+        {
+            "name": "Corey Frang",
+            "email": "gnarf37@gmail.com",
+            "url": "http://gnarf.net"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://longren.io/sticky-alerts-a-new-tiny-jquery-plugin/"
+        }
+    ],
+    "bugs": "https://github.com/tlongren/jquery-sticky-alert/issues",
+    "homepage": "http://longren.io/sticky-alerts-a-new-tiny-jquery-plugin/",
+    "docs": "https://github.com/tlongren/jquery-sticky-alert",
+    "download": "http://code.jquery.com/#sticky-alert",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
