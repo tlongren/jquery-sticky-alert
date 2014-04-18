@@ -18,16 +18,23 @@
         "email": "tyler@longren.io",
         "url": "http://longren.io/"
     },
+    "maintainers": [
+        {
+            "name": "Tyler Longren",
+            "email": "tyler@longren.io",
+            "url": "http://longren.io/sticky-alerts-a-new-tiny-jquery-plugin/"
+        }
+    ],
     "licenses": [
         {
             "type": "MIT",
-            "url": "http://longren.io/sticky-alerts-a-new-tiny-jquery-plugin/"
+            "url": "https://raw.githubusercontent.com/tlongren/jquery-sticky-alert/master/LICENSE"
         }
     ],
     "bugs": "https://github.com/tlongren/jquery-sticky-alert/issues",
     "homepage": "http://longren.io/sticky-alerts-a-new-tiny-jquery-plugin/",
     "docs": "https://github.com/tlongren/jquery-sticky-alert",
-    "download": "https://github.com/tlongren/jquery-sticky-alert",
+    "download": "https://github.com/tlongren/jquery-sticky-alert/archive/0.0.1.zip",
     "dependencies": {
         "jquery": ">=1.5"
     }
