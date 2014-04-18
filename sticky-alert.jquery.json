@@ -9,8 +9,7 @@
         "html",
         "css",
         "options",
-        "sticky",
-        "tiny"
+        "sticky"
     ],
     "version": "0.0.1",
     "author": {
