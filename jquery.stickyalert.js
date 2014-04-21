@@ -38,11 +38,11 @@
 
                 $(this).remove();
 
-                var date = new Date();
+                /*var date = new Date();
 
                 var minutes = 9988;
 
-                date.setTime(date.getTime() + (minutes * 60 * 1000));
+                date.setTime(date.getTime() + (minutes * 60 * 1000));*/
 
                 /*$.cookie('jquery-sticky-alert-closed', 'closed', { path: '/', expires: date });*/
 
