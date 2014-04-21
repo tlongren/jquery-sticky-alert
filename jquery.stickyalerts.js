@@ -26,7 +26,7 @@
 
         return this.each(function() {
 
-          if( $.cookie('jquery-sticky-alert-closed') === 'closed' ){
+          if( jQuery.cookie('jquery-sticky-alert-closed') === 'closed' ){
 
             $('<div class="alert-box" style="background-color:' + options.barColor + '"><a href="' + options.barTextLink + '" style="color:' + options.barFontColor + '; font-size:' + options.barFontSize + '">' + options.barText + '</a><a href="" class="close">&#10006;</a></div>').appendTo(this);
 
