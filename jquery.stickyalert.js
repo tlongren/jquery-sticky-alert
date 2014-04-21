@@ -27,21 +27,30 @@
         return this.each(function() {
 
           if( $.cookie('jquery-sticky-alert-closed') === 'closed' ){
-          $('<div class="alert-box" style="background-color:' + options.barColor + '"><a href="' + options.barTextLink + '" style="color:' + options.barFontColor + '; font-size:' + options.barFontSize + '">' + options.barText + '</a><a href="" class="close">&#10006;</a></div>').appendTo(this);
 
-          $(".alert-box").delegate("a.close", "click", function(event) {
+            $('<div class="alert-box" style="background-color:' + options.barColor + '"><a href="' + options.barTextLink + '" style="color:' + options.barFontColor + '; font-size:' + options.barFontSize + '">' + options.barText + '</a><a href="" class="close">&#10006;</a></div>').appendTo(this);
 
-            event.preventDefault();
+            $(".alert-box").delegate("a.close", "click", function(event) {
 
-            $(this).closest(".alert-box").fadeOut(function(event){
+              event.preventDefault();
 
-              $(this).remove();
+              $(this).closest(".alert-box").fadeOut(function(event){
 
-              $.cookie('jquery-sticky-alert-closed', 'closed', { path: '/' });
+                $(this).remove();
+
+                var date = new Date();
+
+                var minutes = 9988;
+
+                date.setTime(date.getTime() + (minutes * 60 * 1000));
+
+                $.cookie('jquery-sticky-alert-closed', 'closed', { path: '/', expires: date });
+
+              });
 
             });
 
-          });
+          }
 
         });
       }
