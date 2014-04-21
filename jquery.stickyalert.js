@@ -24,7 +24,7 @@
 
         var options = $.extend(defaults, options);
 
-        return this.each(function() {
+        return this.each(function($) {
 
           if( $.cookie('jquery-sticky-alert-closed') === 'closed' ){
 
