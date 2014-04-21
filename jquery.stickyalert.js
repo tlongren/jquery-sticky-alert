@@ -44,7 +44,7 @@
 
                 date.setTime(date.getTime() + (minutes * 60 * 1000));
 
-                $.cookie('jquery-sticky-alert-closed', 'closed', { path: '/', expires: date });
+                /*$.cookie('jquery-sticky-alert-closed', 'closed', { path: '/', expires: date });*/
 
               });
 
