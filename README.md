@@ -5,6 +5,11 @@ The source for [sticky.longren.org](http://sticky.longren.io/) can be found in t
 
 ---
 
+##Current Version: 0.0.3
+
+Big new feature is the ability to enable remembering bar closes. How long it remembers can be set via an option, ```cookieRememberDays``` as you can see below.
+
+
 ##Installation
 
 Include ```jquery.stickyalert.js``` after jQuery:
