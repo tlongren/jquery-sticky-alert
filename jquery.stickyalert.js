@@ -20,7 +20,7 @@
           barFontSize: '1.1rem',
           barText: 'I like to work! Hire me!',
           barTextLink: 'http://longren.io/work-with-me/',
-          rememberCloseTimeInDays: '2'
+          cookieRememberDays: '2'
       };
 
       var options = $.extend(defaults, options);
@@ -46,9 +46,19 @@
               $(this).remove();
 
               // set a new cookie
-              var hidefor =  60 * 60 * 24 * options.rememberCloseTimeInDays;
+              if (options.cookieRememberDays === 0) {
 
-              document.cookie = "tylercookie234=closed;max-age=" + hidefor;
+                // do nothing
+
+              }
+
+              else {
+
+                var hidefor =  60 * 60 * 24 * options.cookieRememberDays;
+
+                document.cookie = "aeeeded=closed;max-age=" + hidefor;
+
+              }
 
             });
 
