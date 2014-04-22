@@ -14,46 +14,52 @@
 
     stickyalert: function(options) {
 
-        var defaults = {
-            barColor: '#222',
-            barFontColor: '#FFF',
-            barFontSize: '1.1rem',
-            barText: 'I like to work! Hire me!',
-            barTextLink: 'http://longren.io/work-with-me/',
-        };
+      var defaults = {
+          barColor: '#222',
+          barFontColor: '#FFF',
+          barFontSize: '1.1rem',
+          barText: 'I like to work! Hire me!',
+          barTextLink: 'http://longren.io/work-with-me/',
+          rememberCloseTimeInDays: '2'
+      };
 
-        var options = $.extend(defaults, options);
+      var options = $.extend(defaults, options);
 
-        return this.each(function() {
+      return this.each(function() {
 
-          /*if( jQuery.cookie('jquery-sticky-alert-closed') === 'closed' ){*/
+          if (document.cookie.indexOf("tylercookie") >= 0) {
 
-            $('<div class="alert-box" style="background-color:' + options.barColor + '"><a href="' + options.barTextLink + '" style="color:' + options.barFontColor + '; font-size:' + options.barFontSize + '">' + options.barText + '</a><a href="" class="close">&#10006;</a></div>').appendTo(this);
+            $('.alert-box').remove();
 
-            $(".alert-box").delegate("a.close", "click", function(event) {
+          }
 
-              event.preventDefault();
+          else {
 
-              $(this).closest(".alert-box").fadeOut(function(event){
+          $('<div class="alert-box" style="background-color:' + options.barColor + '"><a href="' + options.barTextLink + '" style="color:' + options.barFontColor + '; font-size:' + options.barFontSize + '">' + options.barText + '</a><a href="" class="close">&#10006;</a></div>').appendTo(this);
 
-                $(this).remove();
+          $(".alert-box").delegate("a.close", "click", function(event) {
 
-                /*var date = new Date();
+            event.preventDefault();
 
-                var minutes = 9988;
+            $(this).closest(".alert-box").fadeOut(function(event){
 
-                date.setTime(date.getTime() + (minutes * 60 * 1000));*/
+              $(this).remove();
 
-                /*$.cookie('jquery-sticky-alert-closed', 'closed', { path: '/', expires: date });*/
+              // set a new cookie
+              var hidefor =  60 * 60 * 24 * options.rememberCloseTimeInDays;
 
-              });
+              document.cookie = "tylercookie234=closed;max-age=" + hidefor;
 
             });
 
-          /*}*/
+          });
 
-        });
-      }
+        }
+
+      });
+
+    }
+
   });
 
 })(jQuery);
