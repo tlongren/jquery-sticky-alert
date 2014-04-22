@@ -28,7 +28,8 @@ $('#alert-container').stickyalert({
   barColor:'#222',
   barFontSize: '1.1rem',
   barText:'Hey, need some web work done? Give me a shout!',
-  barTextLink:'http://longren.io/work-with-me/'
+  barTextLink:'http://longren.io/work-with-me/',
+  cookieRememberDays: '2'
 });
 ```
 
