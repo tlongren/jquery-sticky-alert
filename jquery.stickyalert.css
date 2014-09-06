@@ -16,6 +16,6 @@ div.alert-box a {
   text-decoration:none;
 }
 
-.alert-box a.close { color: #eee; position: absolute; right: 15px; top: 0; font-size: 18px; opacity: 0.8; padding: 4px; text-decoration:none; }
+.alert-box a.close { color: #eee; position: absolute; right: 30px; top: 0; font-size: 18px; opacity: 0.8; padding: 4px; text-decoration:none; }
 
 .alert-box a.close:hover,.alert-box a.close:focus { opacity: 0.4; }
