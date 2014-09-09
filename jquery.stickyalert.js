@@ -20,8 +20,7 @@
           barFontSize: '1.1rem',
           barText: 'I like to work! Hire me!',
           barTextLink: 'http://longren.io/work-with-me/',
-          cookieRememberDays: '2',
-          displayAfter: '0'
+          cookieRememberDays: '2'
       };
 
       var options = $.extend(defaults, options);
