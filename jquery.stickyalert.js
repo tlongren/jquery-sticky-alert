@@ -1,12 +1,12 @@
 /*!
- * jQuery Sticky Alert v0.0.3
+ * jQuery Sticky Alert v0.0.4
  * https://github.com/tlongren/jquery-sticky-alert
  *
- * Copyright 2013 Tyler Longren
+ * Copyright 2014 Tyler Longren
  * Released under the MIT license.
  * http://jquery.org/license
  *
- * Date: April 13, 2014
+ * Date: September 09, 2014
  */
 (function($){
 
@@ -20,7 +20,8 @@
           barFontSize: '1.1rem',
           barText: 'I like to work! Hire me!',
           barTextLink: 'http://longren.io/work-with-me/',
-          cookieRememberDays: '2'
+          cookieRememberDays: '2',
+          displayAfter: '5000'
       };
 
       var options = $.extend(defaults, options);
