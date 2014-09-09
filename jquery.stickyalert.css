@@ -1,7 +1,7 @@
 * { margin:0; padding:0; }
 
 div.alert-box {
-display: none;
+display: block;
 padding: 6px 7px;
 color:#eee;
 text-align: center;
