@@ -21,7 +21,7 @@
           barText: 'I like to work! Hire me!',
           barTextLink: 'http://longren.io/work-with-me/',
           cookieRememberDays: '2',
-          displayAfter: '5000'
+          displayAfter: '50000'
       };
 
       var options = $.extend(defaults, options);
