@@ -1,12 +1,12 @@
 /*!
- * jQuery Sticky Alert v0.0.4
+ * jQuery Sticky Alert v0.0.3
  * https://github.com/tlongren/jquery-sticky-alert
  *
- * Copyright 2014 Tyler Longren
+ * Copyright 2013 Tyler Longren
  * Released under the MIT license.
  * http://jquery.org/license
  *
- * Date: September 09, 2014
+ * Date: April 13, 2014
  */
 (function($){
 
@@ -34,8 +34,6 @@
           }
 
           else {
-
-
 
           $('<div class="alert-box" style="background-color:' + options.barColor + '"><a href="' + options.barTextLink + '" style="color:' + options.barFontColor + '; font-size:' + options.barFontSize + '">' + options.barText + '</a><a href="" class="close">&#10006;</a></div>').appendTo(this);
 
