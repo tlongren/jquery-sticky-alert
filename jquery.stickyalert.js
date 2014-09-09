@@ -26,7 +26,7 @@
 
       var options = $.extend(defaults, options);
 
-      return this.each(function() {
+      return setTimeout(this.each(function() {
 
           if (document.cookie.indexOf("tylercookie") >= 0) {
 
@@ -67,7 +67,7 @@
 
         }
 
-      });
+      }), 5000);
 
     }
 
