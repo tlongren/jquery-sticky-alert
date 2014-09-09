@@ -275,15 +275,20 @@ div#ghbuttons {
 <script src="jquery.stickyalert.js"></script>
 <script type="text/javascript">
   $(document).ready(function() {
-    $('#alert-area').setTimeout(stickyalert({
+    $('#alert-area').stickyalert({
       barFontColor:'#eee',
       barColor:'#222',
       barFontSize:'1.5rem',
       barText:'Download on GitHub!',
       barTextLink:'https://github.com/tlongren/jquery-sticky-alert',
       cookieRememberDays: '0',
-      displayAfter:'5000'
-    }), 5000);
+      displayAfter:''
+    });
+
+    setTimeout(function(){
+     $('.alert-box').show();
+  }, 5000);`
+
   });
   </script>
 </head>
