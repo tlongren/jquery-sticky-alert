@@ -64,7 +64,7 @@
 
             });
 
-          }, options.displayDelay);
+          }, options.displayDelay));
 
         }
 
