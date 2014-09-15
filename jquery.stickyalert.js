@@ -36,7 +36,7 @@
 
           else {
 
-          $('<div class="alert-box" style="background-color:' + options.barColor + '"><a href="' + options.barTextLink + '" style="color:' + options.barFontColor + '; font-size:' + options.barFontSize + '">' + options.barText + '</a><a href="" class="close">&#10006;</a></div>').appendTo(this).hide().delay(options.displayDelay);
+          $('<div class="alert-box" style="background-color:' + options.barColor + '"><a href="' + options.barTextLink + '" style="color:' + options.barFontColor + '; font-size:' + options.barFontSize + '">' + options.barText + '</a><a href="" class="close">&#10006;</a></div>').appendTo(this).hide().delay(options.displayDelay).fadeIn(slow);
 
 
             $(".alert-box").delegate("a.close", "click", function(event) {
