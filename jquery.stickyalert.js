@@ -20,7 +20,8 @@
           barFontSize: '1.1rem',
           barText: 'I like to work! Hire me!',
           barTextLink: 'http://longren.io/work-with-me/',
-          cookieRememberDays: '2'
+          cookieRememberDays: '2',
+          displayDelay: '0'
       };
 
       var options = $.extend(defaults, options);
@@ -37,7 +38,8 @@
 
           $('<div class="alert-box" style="background-color:' + options.barColor + '"><a href="' + options.barTextLink + '" style="color:' + options.barFontColor + '; font-size:' + options.barFontSize + '">' + options.barText + '</a><a href="" class="close">&#10006;</a></div>').appendTo(this);
 
-          $(".alert-box").delegate("a.close", "click", function(event) {
+          setTimeout(
+            $(".alert-box").delegate("a.close", "click", function(event) {
 
             event.preventDefault();
 
@@ -62,7 +64,7 @@
 
             });
 
-          });
+          }, options.displayDelay););
 
         }
 
