@@ -1,5 +1,5 @@
 /*!
- * jQuery Sticky Alert v0.0.3
+ * jQuery Sticky Alert v0.0.4
  * https://github.com/tlongren/jquery-sticky-alert
  *
  * Copyright 2013 Tyler Longren
@@ -27,7 +27,7 @@
 
       return this.each(function() {
 
-          if (document.cookie.indexOf("tylercookie") >= 0) {
+          if (document.cookie.indexOf("jqsa") >= 0) {
 
             $('.alert-box').remove();
 
@@ -56,7 +56,7 @@
 
                 var hidefor =  60 * 60 * 24 * options.cookieRememberDays;
 
-                document.cookie = "aeeeded=closed;max-age=" + hidefor;
+                document.cookie = "jqsa=closed;max-age=" + hidefor;
 
               }
 
