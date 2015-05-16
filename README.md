@@ -26,7 +26,8 @@ $(document).ready(function() {
     barFontColor:'#eee',
     barColor:'#222',
     barText:'Hey, need some web work done? Give me a shout!',
-    barTextLink:'http://longren.io/work-with-me/'
+    barTextLink:'http://longren.io/work-with-me/',
+    cookieRememberDays: '2'
   });
 });
 ```
