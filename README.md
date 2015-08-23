@@ -51,3 +51,7 @@ If you nocitce any problems, plese [submit an issue](https://github.com/tlongren
 
 ##A Screenshot
 ![jQuery Sticky Alert Screenshot](https://raw.githubusercontent.com/tlongren/jquery-sticky-alert/master/screenshot.png "jQuery Sitcky Alert Screenshot")
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tlongren/jquery-sticky-alert/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
