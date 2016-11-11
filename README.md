@@ -28,9 +28,8 @@ npm install jquery-sticky-alert
 
 or
 
-#### Bower
 
-Install using [bower](http://bower.io/):
+### Install using [bower](http://bower.io/):
 
 ```
 bower install jquery-sticky-alert
