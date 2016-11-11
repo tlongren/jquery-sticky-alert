@@ -1,24 +1,34 @@
 {
   "name": "jquery-sticky-alert",
-  "version": "0.0.4",
+  "title": "jQuery Sticky Alert",
+  "version": "0.1.0",
   "description": "A minimal jQuery plugin to add a sticky alert bar to the top of your website.",
   "main": "jquery.stickyalert.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tlongren/jquery-sticky-alert.git"
-  },
+  "bugs": "https://github.com/tlongren/jquery-sticky-alert/issues",
+  "homepage": "https://github.com/tlongren/jquery-sticky-alert",
+  "repository": "https://github.com/tlongren/jquery-sticky-alert",
   "keywords": [
     "jquery-plugin",
     "ecosystem:jquery",
     "alert",
-    "javascript"
+    "javascript",
+    "sticky",
+    "notification"
   ],
-  "author": "Tyler Longren",
-  "license": "MIT",
+  "author": {
+    "name": "Tyler Longren",
+    "url": "https://www.longren.io/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ractoon/jQuery-Text-Counter/blob/master/LICENSE.md"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/tlongren/jquery-sticky-alert/issues"
+  },
+  "dependencies": {
+    "jquery": ">=1.5"
   }
 }
