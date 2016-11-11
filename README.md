@@ -5,7 +5,8 @@ A minimal jQuery plugin to add a sticky alert bar to the top of your website. In
 
 ##Installation
 
-Include ```jquery.stickyalert.js``` after jQuery:
+### Install manually
+Include ```jquery.stickyalert.js``` after including jQuery itself:
 
 ```html
 <script src="/path/to/jquery.stickyalert.js"></script>
@@ -17,6 +18,24 @@ Also include ```jquery.stickyalerts.css```:
 <link href="/path/to/jquery.stickyalert.css" rel="stylesheet" type="text/css" />
 ```
 
+or
+
+
+### Install using [npm](https://www.npmjs.com/):
+```
+npm install jquery-sticky-alert
+```
+
+or
+
+#### Bower
+
+Install using [bower](http://bower.io/):
+
+```
+bower install jquery-sticky-alert
+```
+
 ##Usage
 
 I usually add this in my ```<header>``` area, after jQuery and ```jquery.stickyalert.js``` have been loaded.
@@ -26,7 +45,7 @@ $(document).ready(function() {
     barFontColor:'#eee',
     barColor:'#222',
     barText:'Hey, need some web work done? Give me a shout!',
-    barTextLink:'http://longren.io/work-with-me/',
+    barTextLink:'https://www.longren.io/,
     cookieRememberDays: '2'
   });
 });
@@ -51,7 +70,4 @@ If you nocitce any problems, plese [submit an issue](https://github.com/tlongren
 
 ##A Screenshot
 ![jQuery Sticky Alert Screenshot](https://raw.githubusercontent.com/tlongren/jquery-sticky-alert/master/screenshot.png "jQuery Sitcky Alert Screenshot")
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tlongren/jquery-sticky-alert/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
