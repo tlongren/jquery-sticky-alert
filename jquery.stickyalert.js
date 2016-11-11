@@ -1,5 +1,5 @@
 /*!
- * jQuery Sticky Alert v0.1.1`
+ * jQuery Sticky Alert v0.1.2`
  * https://github.com/tlongren/jquery-sticky-alert
  *
  * Copyright 2016 Tyler Longren
