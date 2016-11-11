@@ -44,7 +44,7 @@ $(document).ready(function() {
     barFontColor:'#eee',
     barColor:'#222',
     barText:'Hey, need some web work done? Give me a shout!',
-    barTextLink:'https://www.longren.io/,
+    barTextLink:'https://www.longren.io/',
     cookieRememberDays: '2'
   });
 });
