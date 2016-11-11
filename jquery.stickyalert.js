@@ -1,5 +1,5 @@
 /*!
- * jQuery Sticky Alert v0.0.4
+ * jQuery Sticky Alert v0.1.0
  * https://github.com/tlongren/jquery-sticky-alert
  *
  * Copyright 2013 Tyler Longren
@@ -18,8 +18,8 @@
           barColor: '#222',
           barFontColor: '#FFF',
           barFontSize: '1.1rem',
-          barText: 'I like to work! Hire me!',
-          barTextLink: 'http://longren.io/work-with-me/',
+          barText: 'I like bass and car audio :)',
+          barTextLink: 'https://www.longren.io/',
           cookieRememberDays: '2'
       };
 
