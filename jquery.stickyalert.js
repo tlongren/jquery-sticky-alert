@@ -21,7 +21,7 @@
     barText: 'I like bass and car audio :)', // the text to display, linked with barTextLink
     barTextLink: 'https://www.longren.io/', // url for anchor
     cookieRememberDays: '2', // in days
-    displayDelay: '3000' // in milliseconds
+    displayDelay: '3000' // in milliseconds, 3 second default
   };
 
       var options = $.extend(defaults, options);
@@ -34,9 +34,14 @@
 
           }
 
-          else {
+  else {
+    // show the alert
+    var textToInsert = '<div class="alert-box" style="background-color:' + options.barColor + '"><a href="' + options.barTextLink + '" style="color:' + options.barFontColor + '; font-size:' + options.barFontSize + '">' + options.barText + '</a><a href="" class="close">&#10006;</a></div>';
+    var parent_id = $(this).closest("div").prop("id");
+    setTimeout(function () {
+      $("#" + parent_id).append(textToInsert);
+    }, options.displayDelay);
 
-          $('<div class="alert-box" style="background-color:' + options.barColor + '"><a href="' + options.barTextLink + '" style="color:' + options.barFontColor + '; font-size:' + options.barFontSize + '">' + options.barText + '</a><a href="" class="close">&#10006;</a></div>').appendTo(this);
 
           $(".alert-box").delegate("a.close", "click", function(event) {
 
