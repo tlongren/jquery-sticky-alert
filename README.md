@@ -5,7 +5,8 @@ A minimal jQuery plugin to add a sticky alert bar to the top of your website. In
 
 ##Installation
 
-Include ```jquery.stickyalert.js``` after jQuery:
+### Install manually
+Include ```jquery.stickyalert.js``` after including jQuery itself:
 
 ```html
 <script src="/path/to/jquery.stickyalert.js"></script>
@@ -17,17 +18,37 @@ Also include ```jquery.stickyalerts.css```:
 <link href="/path/to/jquery.stickyalert.css" rel="stylesheet" type="text/css" />
 ```
 
+or
+
+
+### Install using [npm](https://www.npmjs.com/):
+```
+npm install jquery-sticky-alert
+```
+
+or
+
+
+### Install using [bower](http://bower.io/):
+
+```
+bower install jquery-sticky-alert
+```
+
 ##Usage
 
 I usually add this in my ```<header>``` area, after jQuery and ```jquery.stickyalert.js``` have been loaded.
 ```javascript
 $(document).ready(function() {
-  $('#alert-container').stickyalert({
-    barFontColor:'#eee',
-    barColor:'#222',
-    barText:'Hey, need some web work done? Give me a shout!',
-    barTextLink:'http://longren.io/work-with-me/'
-  });
+	$('#alert-container').stickyalert({
+	barColor: '#222', // alert background color
+	barFontColor: '#FFF', // text font color
+	barFontSize: '1.1rem', // text font size
+	barText: 'I like bass and car audio :)', // the text to display, linked with barTextLink
+	barTextLink: 'https://www.longren.io/', // url for anchor
+	cookieRememberDays: '2', // in days
+	displayDelay: '3000' // in milliseconds, 3 second default
+	});
 });
 ```
 
@@ -50,3 +71,4 @@ If you nocitce any problems, plese [submit an issue](https://github.com/tlongren
 
 ##A Screenshot
 ![jQuery Sticky Alert Screenshot](https://raw.githubusercontent.com/tlongren/jquery-sticky-alert/master/screenshot.png "jQuery Sitcky Alert Screenshot")
+
