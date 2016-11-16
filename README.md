@@ -41,13 +41,13 @@ I usually add this in my ```<header>``` area, after jQuery and ```jquery.stickya
 ```javascript
 $(document).ready(function() {
 	$('#alert-container').stickyalert({
-	barColor: '#222', // alert background color
-	barFontColor: '#FFF', // text font color
-	barFontSize: '1.1rem', // text font size
-	barText: 'I like bass and car audio :)', // the text to display, linked with barTextLink
-	barTextLink: 'https://www.longren.io/', // url for anchor
-	cookieRememberDays: '2', // in days
-	displayDelay: '3000' // in milliseconds, 3 second default
+		barColor: '#222', // alert background color
+		barFontColor: '#FFF', // text font color
+		barFontSize: '1.1rem', // text font size
+		barText: 'I like bass and car audio :)', // the text to display, linked with barTextLink
+		barTextLink: 'https://www.longren.io/', // url for anchor
+		cookieRememberDays: '2', // in days
+		displayDelay: '3000' // in milliseconds, 3 second default
 	});
 });
 ```
