@@ -14,14 +14,15 @@
 
     stickyalert: function(options) {
 
-      var defaults = {
-          barColor: '#222',
-          barFontColor: '#FFF',
-          barFontSize: '1.1rem',
-          barText: 'I like to work! Hire me!',
-          barTextLink: 'http://longren.io/work-with-me/',
-          cookieRememberDays: '2'
-      };
+  var defaults = {
+    barColor: '#222', // alert background color
+    barFontColor: '#FFF', // text font color
+    barFontSize: '1.1rem', // text font size
+    barText: 'I like bass and car audio :)', // the text to display, linked with barTextLink
+    barTextLink: 'https://www.longren.io/', // url for anchor
+    cookieRememberDays: '2', // in days
+    displayDelay: '3000' // in milliseconds
+  };
 
       var options = $.extend(defaults, options);
 
