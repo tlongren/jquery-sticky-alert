@@ -1,13 +1,12 @@
 /*!
- * jQuery Sticky Alert v0.1.3`
- * https://github.com/tlongren/jquery-sticky-alert
- *
- * Copyright 2016 Tyler Longren
- * Released under the MIT license.
- * http://jquery.org/license
- *
- * Date: November 10, 2016
- */
+* jQuery Sticky Alert v0.1.4
+* https://github.com/tlongren/jquery-sticky-alert
+*
+* Released under the MIT license.
+* http://jquery.org/license
+*
+* Date: November 16, 2016
+*/
 (function($){
 
   $.fn.extend({
