@@ -60,7 +60,7 @@ You'll also need a div with id ```alert-container```, according to the usage exa
 Your ```alert-container``` will contain the sticky alert. ```:)```
 
 ## Issues
-If you nocitce any problems, plese [submit an issue](https://github.com/tlongren/colors-anchor-theme/issues).
+If you nocitce any problems, please [submit an issue](https://github.com/tlongren/colors-anchor-theme/issues). [![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg?style=flat-square)](https://github.com/tlongren/jquery-sticky-alert)
 
 ## How to Contribute
 1. Fork it
