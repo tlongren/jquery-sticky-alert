@@ -4,7 +4,6 @@
   "version": "0.1.5",
   "description": "A minimal jQuery plugin to add a sticky alert bar to the top of your website.",
   "main": "jquery.stickyalert.js",
-  "bugs": "https://github.com/tlongren/jquery-sticky-alert/issues",
   "homepage": "https://www.longren.io/sticky-alerts-a-new-tiny-jquery-plugin/",
   "repository": "https://github.com/tlongren/jquery-sticky-alert",
   "keywords": [
