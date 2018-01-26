@@ -20,19 +20,17 @@ Also include ```jquery.stickyalerts.css```:
 
 or
 
+### Install using [Yarn](https://yarnpkg.com/):
 
-### Install using [npm](https://www.npmjs.com/):
 ```
-npm install jquery-sticky-alert
+yarn add jquery-sticky-alert
 ```
 
 or
 
-
-### Install using [bower](http://bower.io/):
-
+### Install using [npm](https://www.npmjs.com/):
 ```
-bower install jquery-sticky-alert
+npm install jquery-sticky-alert
 ```
 
 ## Usage
